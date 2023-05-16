@@ -1,14 +1,14 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import './styles/navbar.css'
+import { NavBar } from './components/navbar';
+import { Banner } from './components/banner'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          
-        </Routes>
-      </Router>
+      <NavBar />
+      <Banner />
     </div>
   );
 }

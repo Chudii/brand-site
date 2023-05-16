@@ -1,4 +1,4 @@
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import logo from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
@@ -6,8 +6,8 @@ import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 
 
-export const Navbar = () => {
-    const [activeLink, setActveLink] = useState('home')
+export const NavBar = () => {
+    const [activeLink, setActiveLink] = useState('home')
     const [scrolled, setScrolled] = useState(false)
 
     useEffect(() => {
