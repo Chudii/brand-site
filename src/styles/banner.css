@@ -5,6 +5,7 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom: 5px solid rgb(60, 207, 84);
 }
 .banner .tagline {
     font-weight: 700;
@@ -52,6 +53,7 @@
 .banner img {
     animation: updown 3s linear infinite;
 }
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
