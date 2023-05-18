@@ -1,5 +1,6 @@
 import { useState } from "react"
-import contactImg from "../assets/img/contract-img.svg"
+import { Container, Row, Col} from "react-bootstrap"
+import contactImg from "../assets/img/header-img.png"
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -21,7 +22,7 @@ export const Contact = () => {
         })
     }
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setButtonText('Sending...')
         let response = await fetch("http:://localhost:5000/contact", {

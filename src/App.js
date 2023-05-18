@@ -6,6 +6,7 @@ import { NavBar } from './components/navbar';
 import { Banner } from './components/banner';
 import { Products } from './components/products';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Contact } from './components/contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <Banner />
       <Products />
+      <Contact />
     </div>
   );
 }
