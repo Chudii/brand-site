@@ -29,6 +29,7 @@
 }
 .product .nav.nav-pills .nav-link {
     background-color: transparent;
+    border: 1px solid transparent;
     border-radius: 0;
     padding: 17px 0;
     color: #fff;
@@ -46,7 +47,7 @@
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
     top: 0;
     left: 0;
     z-index: -1;
@@ -68,7 +69,7 @@
 }
 .nav-link#products-tabs-tab-third {
     border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 0 55px 55px 0;
+    border-radius: 0 50px 55px 0;
 }
 .prod-imgbx {
     position: relative;
@@ -78,7 +79,7 @@
 }
 .prod-imgbx::before {
     content: "";
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
     opacity: 0.85;
     position: absolute;
     width: 100%;

@@ -2,6 +2,7 @@ import './App.css';
 import './styles/navbar.css'
 import './styles/banner.css'
 import './styles/products.css'
+import './styles/contact.css'
 import { NavBar } from './components/navbar';
 import { Banner } from './components/banner';
 import { Products } from './components/products';
