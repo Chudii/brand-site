@@ -5,7 +5,6 @@ import headerImg from '../assets/img/header-img.png'
 
 export const Banner = () => {
 
-
     return (
         <section className="banner" id="home">
             <Container>
